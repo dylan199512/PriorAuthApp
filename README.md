@@ -1,22 +1,22 @@
 **Prior Authorization App**
-<p>A simple Java application that shows how prior authorization logic can work in software. The app includes a small rules engine, a basic UI, and an audit log. It gives a clear view of how UM decisions can be structured, explained, and recorded.</p>
+* A simple Java application that shows how prior authorization logic can work in software. The app includes a small rules engine, a basic UI, and an audit log. It gives a clear view of how UM decisions can be structured, explained, and recorded.
 
 **Key Features**
 
 **Rules Engine**
-<p>A small decision module that checks patient inputs against synthetic criteria and returns an approval, denial, or review flag.</p>
+* A small decision module that checks patient inputs against synthetic criteria and returns an approval, denial, or review flag.
 
 **JavaFX UI**
-A lightweight interface for entering patient information and viewing the determination.
+* A lightweight interface for entering patient information and viewing the determination.
 
 **Audit Logging**  
-<p>Every decision is written to a text log. The log shows the inputs, the outcome, and the reason.</p>
+* Every decision is written to a text log. The log shows the inputs, the outcome, and the reason.
 
 **Transparent Logic**
-<p>All rules are visible in code. No black boxes. No hidden steps.</p>
+* All rules are visible in code. No black boxes. No hidden steps.
 
 **Synthetic Data Only**
-<p>No PHI. No proprietary guidelines. No real payer criteria.</p>
+* No PHI. No proprietary guidelines. No real payer criteria.
 
 **Project Structure**
 Code
@@ -33,34 +33,34 @@ PriorAuthApp/
 └── README.md
 
 **Decision Framework**
-<p>A request receives a determination based on a few simple checks:</p>
+* A request receives a determination based on a few simple checks:
 
-<p>Age</p>
+* Age
 
-<p>Diagnosis</p>
+* Diagnosis
 
-<p>Treatment type</p>
+* Treatment type
 
-<p>Basic clinical flags</p>
+* Basic clinical flags
 
-<p>Each check contributes to the final outcome. The result is written to the audit log with a short explanation.</p>
+* Each check contributes to the final outcome. The result is written to the audit log with a short explanation.
 
 **Audit Trail**
-<p>The log includes:</p>
+* The log includes:
 
-<p>Patient inputs</p>
+* Patient inputs
 
-<p>Decision</p>
+* Decision
 
-<p>Reason</p>
+* Reason
 
-<p>Timestamp</p>
+* Timestamp
 
-<p>The goal is clarity. Anyone reading the log should understand what happened and why.</p>
+* The goal is clarity. Anyone reading the log should understand what happened and why.
 
 **Technology Stack**
 
-<p>Java</p>
-<p>JavaFX</p>
-<p></p>Plain text logging</p>
+* Java
+* JavaFX
+* Plain text logging
 
