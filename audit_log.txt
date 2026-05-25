@@ -1,0 +1,8 @@
+--- Audit Log ---
+Rule 1: Not applicable
+Rule 2: Age requirement met
+Rule 3: Payer requirement met
+Rule 4: No restrictions met → APPROVE
+
+Decision: APPROVE
+Reason: No clinical or administrative flags detected.
